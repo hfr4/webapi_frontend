@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Forecasts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./elk.min.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+    <div class="row mhs mvs">
+        <div class="col-3"></div>
+        <div class="col-6">
+
+            <nav class="row">
+                <a class="mhs" href="./index.html">index</a>
+                <a class="mhs" href="./add.html">add</a>
+                <a class="mhs" href="./delete.html">delete</a>
+                <a class="mhs" href="./login.html">login</a>
+                <div class="row pull-right"> <p id="navUsername"></p> <button class="mhs" id="logOutBtn"> Log Out </button> </div>
+            </nav>
+
+            <hr/>
+
+            <div>
+                <h4>Index</h4>
+            </div>
+
+            <hr/>
+
+            <div class="hcenter lvs">
+                <button id="getAllWeathersBtn">Get Weather Forecasts</button>
+            </div>
+
+            <div id="allWeathersContainer"></div>
+
+            <hr/>
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
