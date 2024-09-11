@@ -1,9 +1,9 @@
 # Administrator account
 
-Username : admin
-Password : password
+- Username : `admin`
+- Password : `password`
 
 # Seller account
 
-Username : seller
-Password : password
+- Username : `seller`
+- Password : `password`
